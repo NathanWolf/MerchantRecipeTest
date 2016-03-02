@@ -1,0 +1,17 @@
+name: MerchantRecipeTest
+main: com.elmakers.mine.bukkit.test.MerchantRecipeTest
+version: ${project.version}
+website: http://mine.elmakers.com
+author: NathanWolf
+description: Test for the Merchant API
+commands:
+  merchant:
+    description: Spawn a merchant with a custom trade
+    usage: merchant
+    permission: merchant
+permissions:
+  merchant:
+    description: Player may use the /merchant command
+    type: boolean
+    default: op
+    
